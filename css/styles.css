@@ -32,8 +32,22 @@ footer {
     background-color: #0077B6;
     color: #FFFFFF;
 }
-.form-field {
+.content-background {
     background-color: #90E0EF;
     padding: 20px;
+    margin-bottom: 30px;
     border-radius: 7px;
+}
+.email-input {
+    padding-bottom: 7px;
+}
+@media only screen and (min-width: 786px) {
+    .notifications {
+        display: flex;
+    }
+    .email-input {
+        width: 75%;
+        padding-bottom: 0px;
+        margin-right: 10px;
+    }
 }
