@@ -1,21 +1,29 @@
 body{
     background-color: #0077B6;
+    color: #03045E;
 }
 .navbar {
     background-color: #03045E;
 }
 .navbar-brand, .nav-link {
-    color: white;
+    color: #90E0EF;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #FFFFFF;
 }
 .navbar-toggler {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 .btn {
-    background-color: white;
+    background-color: #FFFFFF;
+    color: #03045E;
 }
 .btn:hover {
-    background-color: #90E0EF;
+    background-color: #0077B6;
+    color: #FFFFFF;
 }
 .form-field {
     background-color: #90E0EF;
+    padding: 20px;
+    border-radius: 7px;
 }
