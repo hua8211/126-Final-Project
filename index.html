@@ -50,54 +50,66 @@
                 We understand that finding the right internship can be a crucial stepping stone towards a successful career, and we're here to make that journey smoother.
             </p>
             <h4>Key Features</h4>
-            <ul>
-                <li>
-                    <a class="nav-link-text" href="internList.html" role="button" aria-label="Internship List">Curated Internship Listings</a>:
-                    We carefully curate a list of software engineering internships from top-notch companies across various industries. 
-                    Each opportunity is handpicked to ensure its relevance and potential for your professional growth.
-                </li>
-                <li>
-                    <a class="nav-link-text" href="addJob.html" role="button" aria-label="Internship List">Submit Your Findings</a>:
-                    Don't see your dream internship listed? We've got you covered! Use our "Submit an Internship" feature to share details about opportunities you discover. 
-                    Help us grow our database and assist fellow engineers in finding hidden gems.
-                </li>
-                <li>
-                    Receive Notifications - Stay in the loop! Enter your email address to receive notifications whenever a new internship is added to our list. Be the first to 
-                    know about new exciting opportunities.
-                    <form class="notifications">
-                        <div class="email-input">
-                            <label for="exampleFormControlInput1" class="visually-hidden">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            <div class="card-group">
+                    <div class="card" aria-label="Internship List">
+                        <img class="card-img-top" src="img/intern.jpg" alt="Intern working">
+                        <div class="card-body">
+                        <h5 class="card-title">Curated Internship Listings</h5>
+                        <p class="card-text">We carefully curate a list of software engineering internships from top-notch companies across various industries. 
+                            Each opportunity is handpicked to ensure its relevance and potential for your professional growth.</p>
+                        <a href="internList.html" class="btn btn-primary">Find opportunities!</a>
                         </div>
-                        <div class="d-grid gap-3">
-                            <button type="submit" class="btn email">Submit</button>
+                    </div> 
+                    <div class="card"  aria-label="Submit an Internship">
+                        <img class="card-img-top" src="img/interview.jpg" alt="Interview">
+                        <div class="card-body">
+                        <h5 class="card-title">Submit Your Findings!</h5>
+                        <p class="card-text"> Don't see your dream internship listed? We've got you covered! Use our "Submit an Internship" feature to share details about opportunities you discover. 
+                            Help us grow our database and assist fellow engineers in finding hidden gems.</p>
+                        <a href="addJob.html" class="btn btn-primary">Add a internship!</a>
                         </div>
-                    </form>      
-                </li>
-            </ul>
-            <h4>Other Internship Resources</h4>
-            <div class="resources">
-                <ul class="leetcode">
-                    <li >
-                        <a class="nav-link-text" href="https://leetcode.com" role="button" aria-label="Internship List">Leetcode</a>:
-                        Sharpen your coding skills and stay updated on the latest challenges with real-world problems and improve your problem-solving abilities as 
-                        Leetcode offers a diverse range of problems to help you excel in technical interviews.
-                    </li>
-                    <li class="image">
-                        <img id="leetcode" src="img/leetcode.png" alt="graphic of leetcode icon">
-                    </li>
-                </ul>
-                <ul class="book">
-                    <li>
-                        <a class="nav-link-text" href="https://www.crackingthecodinginterview.com" role="button" aria-label="Internship List">Cracking the Coding Interview</a>:
-                        Dive into the renowned resource authored by Gayle Laakmann McDowell. 
-                        This book is a comprehensive guide that provides insights into the interview process and strategies for success. 
-                        Explore practical tips, sample questions, and detailed solutions to common coding interview problems. 
-                    </li>
-                    <li class="image">
-                        <img id="coding-book" src="img/cracking-the-coding-interview.jpg" alt="graphic of book cover">
-                    </li>
-                </ul>
+                    </div>
+                    <div class="card"  aria-label="Get Notified">
+                        <img class="card-img-top" src="img/phone.jpg" alt="Phone">
+                        <div class="card-body">
+                        <h5 class="card-title">Get Notified</h5>
+                        <p class="card-text"> Stay in the loop by receiving notifications from us! Enter your email address to receive notifications whenever a new internship is added to our list. Be the first to 
+                            know about new exciting opportunities.</p>
+                            <form class="notifications">
+                                <div class="email-input">
+                                    <label for="exampleFormControlInput1" class="visually-hidden">Email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                                </div>
+                                <div class="d-grid gap-3">
+                                    <button type="submit" class="btn btn-primary email">Submit</button>
+                                </div>
+                            </form> 
+                    </div>
+                </div>
+            </div>
+            <h4 class="pt-3 d-none d-md-block">Other Internship Resources</h4>
+            <div class="resources  d-none d-md-block">
+                <div class="card-deck">
+                <div class="card bg-dark text-white" aria-label="Leetcode">
+                    <img class="card-img" src="img/leetcode.jpg" alt="Coding">
+                    <div class="card-img-overlay">
+                    <h5 class="card-title text-white">Leetcode</h5>
+                    <p class="card-text text-white">Sharpen your coding skills and stay updated on the latest challenges with real-world problems and improve your problem-solving abilities as 
+                        Leetcode offers a diverse range of problems to help you excel in technical interviews.</p>
+                    <a href="https://leetcode.com/" class="btn btn-primary">Start solving problems now!</a>
+                    </div>
+                </div> 
+
+                <div class="card bg-dark text-white mt-3" aria-label="Cracking the Coding Interview">
+                    <img class="card-img" src="img/cracking-the-coding-interviews.jpg" alt="Studying">
+                    <div class="card-img-overlay">
+                    <h5 class="card-title">Cracking the Coding Interview</h5>
+                    <p class="card-text">Dive into the renowned resource authored by Gayle Laakmann McDowell. This book is a comprehensive guide that provides insights into the interview process and strategies for success. Explore practical tips, sample questions, and detailed solutions to common coding interview problems.</p>
+                    <a href="https://www.crackingthecodinginterview.com/" class="btn btn-primary">Start studying!</a>
+                    </div>
+                </div> 
+            </div>
+                
             </div>
         </div>
     </div>
