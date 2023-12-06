@@ -73,7 +73,13 @@ img {
         display: flex;
         flex-direction: row;
     }
+    .leetcode, .book {
+        flex: 1;
+    }
+    #leetcode {
+        width: 35%;
+    }
     #coding-book {
-        width: 25%;
+        width: 27%;
     }
 }
