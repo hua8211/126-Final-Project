@@ -24,7 +24,7 @@ footer {
 .navbar-brand {
     font-size: 30px;
 }
-.navbar-brand:hover, .nav-link:hover {
+.navbar-brand:hover, .nav-link:hover, .navbar-brand:focus, .nav-link:focus {
     color: #FFFFFF;
 }
 .navbar-toggler {
@@ -34,7 +34,7 @@ footer {
     background-color: #FFFFFF;
     color: #03045E;
 }
-.btn:hover {
+.btn:hover, .btn:focus {
     background-color: #0077B6;
     color: #FFFFFF;
 }
